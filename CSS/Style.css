@@ -927,6 +927,10 @@ header nav .menu .mega-menu ul li a i {
     margin: 10px;
     border: solid 1px #d3d3d3;
     border-radius: 7px;
+    transition: var(--main-transition);
+    &:hover {
+    border: solid 1px var(--main-hover);
+    }
     h2 {
         color: var(--main-color);
         padding: 10px;
@@ -975,6 +979,10 @@ header nav .menu .mega-menu ul li a i {
         background: var(--main-color);
         font-weight: bold;
         text-transform: capitalize;
+        transition: var(--main-transition);
+        &:hover {
+            background-color: var(--main-hover);
+        }
     }
 }
 @media (min-width: 992px) {
